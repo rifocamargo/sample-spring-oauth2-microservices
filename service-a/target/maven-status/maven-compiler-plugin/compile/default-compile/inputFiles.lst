@@ -1,0 +1,7 @@
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/model/Account.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/oauth/config/OAuth2ResourceServerConfig.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/oauth/config/MyRemoteTokenServices.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/oauth/config/ResourceServerConfig.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/AccountApplication.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/api/AccountController.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-a/src/main/java/br/com/lecom/servicea/oauth/config/SSOClientConfiguration.java

@@ -1,0 +1,65 @@
+server:  
+  port: ${PORT:8082}
+  servlet:
+    context-path: /service-a
+    session:
+      tracking-modes:
+      - cookie
+      cookie:
+        name: A-SESSION
+  ssl:
+    enabled: ${SSL_ENABLED:false}
+    key-alias: ${SSL_KEY_ALIAS}
+    key-store: ${SSL_KEY_STORE}
+    key-store-password: ${SSL_KEY_STORE_PASSWORD}
+
+spring:  
+  application:
+    name: form-app
+  main:
+    allow-bean-definition-overriding: true
+  security:
+    oauth2:
+      client:
+        registration:
+          oauth-service:
+            client-id: ${HOST_NAME:localhost}-${spring.application.name}
+            client-secret: secret
+            client-name: oauth-service
+            scope: read
+            provider: oauth-service
+            redirect-uri: https://localhost:${server.port}${server.servlet.context-path}/login/oauth2/code/
+            client-authentication-method: basic
+            authorization-grant-type: authorization_code
+        provider:
+          oauth-service:
+            token-uri: https://oauth.dev.local:8084/oauth/token
+            authorization-uri: https://oauth.dev.local:8084/oauth/authorize
+            user-info-uri: https://oauth.dev.local:8084/api/users/me
+            user-name-attribute: name
+eureka:
+  instance:
+    secure-port-enabled: ${server.ssl.enabled}
+    secure-port: ${server.port}
+    hostname: ${HOST_NAME:localhost}
+  client:
+    service-url:
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://localhost:8761/eureka/}
+      
+security:
+  oauth2:
+    client:
+      client-id: ${spring.security.oauth2.client.registration.oauth-service.client-id}
+      client-secret: ${spring.security.oauth2.client.registration.oauth-service.client-secret}
+      scope: ${spring.security.oauth2.client.registration.oauth-service.scope}
+      access-token-uri: ${spring.security.oauth2.client.provider.oauth-service.token-uri}
+      user-authorization-uri: ${spring.security.oauth2.client.provider.oauth-service.authorization-uri}
+      client-authentication-scheme: form
+      grant-type: client_credentials
+    resource:
+      token-info-uri: https://oauth.dev.local:8084/oauth/check_token
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.security.web.util.matcher:  info

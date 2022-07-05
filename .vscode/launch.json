@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthServer<sso>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "pl.piomin.services.auth.AuthServer",
+            "projectName": "sso",
+            "args": ""
+        }
+    ]
+}

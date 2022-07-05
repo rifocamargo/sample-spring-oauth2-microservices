@@ -1,0 +1,13 @@
+br/com/lecom/sso/security/UserNotActivatedException.class
+br/com/lecom/sso/security/Authorities.class
+br/com/lecom/sso/domain/User.class
+br/com/lecom/sso/repository/UserRepository.class
+br/com/lecom/sso/controller/AuthController.class
+br/com/lecom/sso/security/UserDetailsServiceImpl.class
+br/com/lecom/sso/repository/AuthorityRepository.class
+br/com/lecom/sso/OAuth2Config.class
+br/com/lecom/sso/AuthServer.class
+br/com/lecom/sso/OAuth2ResourceServerConfig.class
+br/com/lecom/sso/controller/SecureController.class
+br/com/lecom/sso/SecurityConfig.class
+br/com/lecom/sso/domain/Authority.class

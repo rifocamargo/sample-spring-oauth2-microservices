@@ -1,0 +1,9 @@
+br/com/lecom/servicea/oauth/config/SSOClientConfiguration$RestTemplateHeaderModifierInterceptor.class
+br/com/lecom/servicea/oauth/config/MyRemoteTokenServices.class
+br/com/lecom/servicea/AccountApplication.class
+br/com/lecom/servicea/oauth/config/MyRemoteTokenServices$1.class
+br/com/lecom/servicea/oauth/config/OAuth2ResourceServerConfig.class
+br/com/lecom/servicea/oauth/config/ResourceServerConfig.class
+br/com/lecom/servicea/model/Account.class
+br/com/lecom/servicea/oauth/config/SSOClientConfiguration.class
+br/com/lecom/servicea/api/AccountController.class
