@@ -1,0 +1,13 @@
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/client/FeignClientInterceptor.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/model/Account.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/model/Customer.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/api/CustomerController.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/oauth/config/MyRemoteTokenServices.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/CustomerApplication.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/tenant/filter/TenantFilter.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/oauth/config/ResourceServerConfig.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/oauth/config/SSOClientConfiguration.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/security/SecurityConfiguration.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/MvcConfig.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/tenant/TenantContext.java
+/home/ricardocamargo/repository/pocs/sample-spring-oauth2-microservices/service-b/src/main/java/br/com/lecom/serviceb/client/AccountClient.java

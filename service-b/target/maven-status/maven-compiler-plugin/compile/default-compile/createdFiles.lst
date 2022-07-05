@@ -1,0 +1,15 @@
+br/com/lecom/serviceb/client/AccountClient.class
+br/com/lecom/serviceb/oauth/config/ResourceServerConfig.class
+br/com/lecom/serviceb/client/FeignClientInterceptor.class
+br/com/lecom/serviceb/oauth/config/MyRemoteTokenServices.class
+br/com/lecom/serviceb/oauth/config/SSOClientConfiguration$RestTemplateHeaderModifierInterceptor.class
+br/com/lecom/serviceb/api/CustomerController.class
+br/com/lecom/serviceb/model/Account.class
+br/com/lecom/serviceb/oauth/config/SSOClientConfiguration.class
+br/com/lecom/serviceb/model/Customer.class
+br/com/lecom/serviceb/tenant/TenantContext.class
+br/com/lecom/serviceb/CustomerApplication.class
+br/com/lecom/serviceb/oauth/config/MyRemoteTokenServices$1.class
+br/com/lecom/serviceb/MvcConfig.class
+br/com/lecom/serviceb/security/SecurityConfiguration.class
+br/com/lecom/serviceb/tenant/filter/TenantFilter.class
